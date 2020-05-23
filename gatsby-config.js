@@ -2,9 +2,9 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     siteUrl: `https://gatsby-starter-clean-resume.netlify.com/`,
-    name: `Luke Skywalker`,
-    role: `Software Developer`,
-    email: `luke@thelightside.com`,
+    name: `Ariel Pasilang`,
+    role: `Web Application Developer`,
+    email: `arielpasilang@gmail.com`,
     socialMedia: [
       {
         name: "github",
@@ -145,7 +145,7 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
-		`gatsby-plugin-less`,
+    `gatsby-plugin-less`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -154,6 +154,14 @@ module.exports = {
             family: `IBM Plex Mono`,
           },
         ],
+      },
+    },
+    {
+      resolve: "gatsby-source-sanity",
+      options: {
+        projectId: "tmwdlhcz",
+        dataset: "production",
+        graphqlTag: "default",
       },
     },
   ],
