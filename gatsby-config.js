@@ -162,6 +162,8 @@ module.exports = {
         projectId: "tmwdlhcz",
         dataset: "production",
         graphqlTag: "default",
+        watchMode: true,
+        overlayDrafts: true,
       },
     },
   ],
